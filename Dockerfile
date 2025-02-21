@@ -12,7 +12,8 @@ RUN set -ex; \
       supervisor \
       x11vnc \
       xterm \
-      xvfb
+      xvfb \
+      firefox
 
 # Setup demo environment variables
 ENV HOME=/root \

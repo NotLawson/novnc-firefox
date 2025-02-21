@@ -10,9 +10,9 @@ case $RUN_FLUXBOX in
     ;;
 esac
 
-case $RUN_XTERM in
+case $RUN_FIREFOX in
   false|no|n|0)
-    rm -f /app/conf.d/xterm.conf
+    rm -f /app/conf.d/firefox.conf
     ;;
 esac
 
